@@ -20,10 +20,19 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Send custom JSON data to Slack workflow
+      - name: Send custom SUCCESS JSON data to Slack workflow
+        if: ${{ job.status == 'success' }}
         id: slack
         uses: slackapi/slack-github-action@v1.16.0
         with:
-          payload: "{\"message\":\"Github Action Status: ${{ job.status }}\"}" # This data can be any valid JSON from a previous step in the GitHub Action
+          payload: "{\"message\":\"Github repo: ${{ github.repository }}\n Branch: ${{ github.ref }}\n Status: 🎉${{ job.status }}🍏\"}" # This data can be any valid JSON from a previous step in the GitHub Action
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Send custom FAILURE JSON data to Slack workflow
+        if: ${{ job.status != 'success' }}
+        id: slack
+        uses: slackapi/slack-github-action@v1.16.0
+        with:
+          payload: "{\"message\":\"Github repo: ${{ github.repository }}\n Branch: ${{ github.ref }}\n Status: 🤔${{ job.status }}💣💥\"}" # This data can be any valid JSON from a previous step in the GitHub Action
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
