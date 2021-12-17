@@ -22,7 +22,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Send custom SUCCESS JSON data to Slack workflow
         if: ${{ job.status == 'success' }}
-        id: slack
+        id: slackSuccess
         uses: slackapi/slack-github-action@v1.16.0
         with:
           payload: "{\"message\":\"Github repo: ${{ github.repository }}\n Branch: ${{ github.ref }}\n Status: 🎉${{ job.status }}🍏\"}" # This data can be any valid JSON from a previous step in the GitHub Action
@@ -30,7 +30,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       - name: Send custom FAILURE JSON data to Slack workflow
         if: ${{ job.status != 'success' }}
-        id: slack
+        id: slackFailure
         uses: slackapi/slack-github-action@v1.16.0
         with:
           payload: "{\"message\":\"Github repo: ${{ github.repository }}\n Branch: ${{ github.ref }}\n Status: 🤔${{ job.status }}💣💥\"}" # This data can be any valid JSON from a previous step in the GitHub Action
