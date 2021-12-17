@@ -19,13 +19,13 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+# Start the Slack Messages
       - name: Send custom SUCCESS JSON data to Slack workflow
         if: ${{ job.status == 'success' }}
         id: slackSuccess
         uses: slackapi/slack-github-action@v1.16.0
         with:
-          payload: "{\"message\":\"Github repo: \*${{ github.repository }}\*\\n* Branch: \*${{ github.ref }}\*\\n* Status: 🎉  \*${{ job.status }}\*  🍏\"}"
+          payload: "{\"message\":\"Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🎉  `${{ job.status }}`  🍏\"}"
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       - name: Send custom FAILURE JSON data to Slack workflow
@@ -33,6 +33,6 @@ jobs:
         id: slackFailure
         uses: slackapi/slack-github-action@v1.16.0
         with:
-          payload: "{\"message\":\"Github repo: \*${{ github.repository }}\*\\n* Branch: \*${{ github.ref }}\*\\n* Status: 🤔  \*${{ job.status }}\*  💣💥\"}" 
+          payload: "{\"message\":\"Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🤔  ${{ job.status }}  💣💥\"}" 
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
