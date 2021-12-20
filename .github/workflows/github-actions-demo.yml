@@ -15,9 +15,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install and npm test
+      - name: npm build
         run: |
-          npm run setup-test
+          npm run build
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
