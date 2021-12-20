@@ -9,35 +9,32 @@ jobs:
         node-version: [17.x]
 
     steps:
+      # Setup and Build
       - name: Check out repository code
         uses: actions/checkout@v2
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-
-      - name: Install packages
+      - name: Install and build packages
         run: npm install
-
-      - name: npm build
         run: npm run build
-
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
 
-# Start IPFS Upload:
-      # - name: Try to upload built packages to IPFS
-      #   if: ${{ job.status == 'success' }}
-      #   uses: aquiladev/ipfs-action@v1
-      #   id: ipfs
-      #   with:
-      #     path: ./build
-      #     service: pinata
-      #     pinataKey: ${{ secrets.PINATA_API_KEY }}
-      #     pinataSecret: ${{ secrets.PINATA_API_SECRET }}
-# Start the Slack Messages:
+      # Upload to IPFS:
+      - name: Try to upload built packages to IPFS
+        if: ${{ job.status == 'success' }}
+        uses: aquiladev/ipfs-action@v1
+        id: ipfs
+        with:
+          path: ./build
+          service: pinata
+          pinataKey: ${{ secrets.PINATA_API_KEY }}
+          pinataSecret: ${{ secrets.PINATA_API_SECRET }}
+
+      # Start the Slack Messages:
       - name: Send custom SUCCESS JSON data to Slack workflow
         if: ${{ always() && job.status == 'success' }}
         id: slackSuccess
