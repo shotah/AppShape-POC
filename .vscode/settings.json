@@ -1,3 +1,12 @@
 {
-  "files.eol": "\n"
+  "editor.formatOnSave": false,
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "files.eol": "\n",
+  "html.format.enable": false,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.ts": "typescriptreact"
+  }
 }
