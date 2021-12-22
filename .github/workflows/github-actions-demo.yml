@@ -34,6 +34,7 @@ jobs:
           service: pinata
           pinataKey: ${{ secrets.PINATA_API_KEY }}
           pinataSecret: ${{ secrets.PINATA_API_SECRET }}
+          pinataPinName: react-site
 
       # Start the Slack Messages:
       - name: Send custom SUCCESS JSON data to Slack workflow
