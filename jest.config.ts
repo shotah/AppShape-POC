@@ -22,7 +22,7 @@ module.exports = {
     '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/fileMock.ts',
 
     // Handle module aliases
-    '^@/components/(.*)$': '<rootDir>/src/$1'
+    '^@/components/(.*)$': '<rootDir>/src/components/$1'
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testPathIgnorePatterns: [

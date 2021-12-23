@@ -1,3 +1,5 @@
+/* eslint sonarjs/cognitive-complexity: ["error", 22] */
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
@@ -40,11 +42,12 @@ export function register(config: any) {
 
         // Add some additional logging to localhost, pointing developers to the
         // service worker/PWA documentation.
-        navigator.serviceWorker.ready.then(() => {
+        return navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
               'worker. To learn more, visit https://bit.ly/CRA-PWA'
           );
+          return null;
         });
       } else {
         // Is not localhost. Just register service worker
@@ -92,6 +95,7 @@ function registerValidSW(swUrl: any, config: any) {
           }
         };
       };
+      return null;
     })
     .catch(error => {
       console.error('Error during service worker registration:', error);
@@ -109,14 +113,16 @@ function checkValidServiceWorker(swUrl: any, config: any) {
         (contentType != null && contentType.indexOf('javascript') === -1)
       ) {
         // No service worker found. Probably a different app. Reload the page.
-        navigator.serviceWorker.ready.then(registration => {
-          registration.unregister().then(() => {
+        return navigator.serviceWorker.ready.then(registration => {
+          return registration.unregister().then(() => {
             window.location.reload();
+            return null;
           });
         });
       } else {
         // Service worker found. Proceed as normal.
         registerValidSW(swUrl, config);
+        return null;
       }
     })
     .catch(() => {
@@ -128,8 +134,9 @@ function checkValidServiceWorker(swUrl: any, config: any) {
 
 export function unregister() {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.ready.then(registration => {
+    return navigator.serviceWorker.ready.then(registration => {
       registration.unregister();
+      return null;
     });
   }
 }
