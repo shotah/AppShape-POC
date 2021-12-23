@@ -113,7 +113,9 @@ function checkValidServiceWorker(swUrl: any, config: any) {
         (contentType != null && contentType.indexOf('javascript') === -1)
       ) {
         // No service worker found. Probably a different app. Reload the page.
+        // eslint-disable-next-line promise/no-nesting
         return navigator.serviceWorker.ready.then(registration => {
+          // eslint-disable-next-line promise/no-nesting
           return registration.unregister().then(() => {
             window.location.reload();
             return null;
