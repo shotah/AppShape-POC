@@ -1,0 +1,6 @@
+# Ignore artifacts: 
+.github
+github-actions-demo.yml
+
+# Ignore all HTML files:
+*.html

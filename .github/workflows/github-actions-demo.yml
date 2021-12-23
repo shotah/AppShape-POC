@@ -1,0 +1,47 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [17.x]
+
+    steps:
+      - name: Build and Test
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.5.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lint
+      - run: npm run test
+
+      - name: Push on merged
+        if: ${{ job.status == 'success' && github.event.pull_request.merged == true }}
+        uses: aquiladev/ipfs-action@v0.1.6
+        with:
+          path: ./build
+          service: pinata
+          pinataKey: ${{ secrets.PINATA_API_KEY }}
+          pinataSecret: ${{ secrets.PINATA_API_SECRET }}
+          pinataPinName: react-site
+
+      - name: Discord Success Notification
+        if: ${{ always() && job.status == 'success' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with: 
+          args: "Github repo: ${{ github.repository }}\n- Branch: ${{ github.ref }}\n- Status: 🎉  ${{ job.status }}  🍏"
+
+      - name: Discord Failure Notification
+        if: ${{ always() && job.status != 'success' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with: 
+          args: "Github repo: ${{ github.repository }}\n- Branch: ${{ github.ref }}\n- Status: 🤔  ${{ job.status }}  💣💥"
+
