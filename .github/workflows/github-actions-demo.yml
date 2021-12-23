@@ -37,27 +37,20 @@ jobs:
           pinataPinName: react-site
 
       # Testing Discord:
-      - name: Discord notification
+      # old args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+      - name: Discord Success Notification
+        if: ${{ always() && job.status == 'success' }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
-        with:
-          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+        with: 
+          args: 'Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🎉  ${{ job.status }}  🍏 '
 
-      # Start the Slack Messages:
-      - name: Send custom SUCCESS JSON data to Slack workflow
-        if: ${{ always() && job.status == 'success' }}
-        id: slackSuccess
-        uses: slackapi/slack-github-action@v1.16.0
-        with:
-          payload: "{\"message\":\"Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🎉  ${{ job.status }}  🍏\"}"
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-      - name: Send custom FAILURE JSON data to Slack workflow
+      - name: Discord Failure Notification
         if: ${{ always() && job.status != 'success' }}
-        id: slackFailure
-        uses: slackapi/slack-github-action@v1.16.0
-        with:
-          payload: "{\"message\":\"Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🤔  ${{ job.status }}  💣💥\"}" 
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with: 
+          args: 'Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🤔  ${{ job.status }}  💣💥 '
+
