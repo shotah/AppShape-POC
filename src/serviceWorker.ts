@@ -101,7 +101,7 @@ function checkValidServiceWorker(swUrl: any, config: any): void {
     });
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line
 export function register(config: any): void {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
@@ -137,7 +137,8 @@ export function register(config: any): void {
   }
 }
 
-export function unregister() {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function unregister(): any {
   if ('serviceWorker' in navigator) {
     return navigator.serviceWorker.ready.then(registration => {
       registration.unregister();
