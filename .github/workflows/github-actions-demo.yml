@@ -44,7 +44,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with: 
-          args: 'Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🎉  ${{ job.status }}  🍏 '
+          args: "Github repo: ${{ github.repository }}\n* Branch: ${{ github.ref }}\n* Status: 🎉  ${{ job.status }}  🍏"
 
       - name: Discord Failure Notification
         if: ${{ always() && job.status != 'success' }}
@@ -52,5 +52,5 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with: 
-          args: 'Github repo: ${{ github.repository }}\\n* Branch: ${{ github.ref }}\\n* Status: 🤔  ${{ job.status }}  💣💥 '
+          args: "Github repo: ${{ github.repository }}\n* Branch: ${{ github.ref }}\n* Status: 🤔  ${{ job.status }}  💣💥"
 
