@@ -9,27 +9,19 @@ jobs:
         node-version: [17.x]
 
     steps:
-      # Setup and Build
-      - name: Check out repository code
+      - name: Build and Test
         uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2.5.0
+      - uses: actions/setup-node@v2.5.0
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install packages
-        run: npm install
-      - name: build package
-        run: npm run build
-      - name: lint package
-        run: npm run lint
-      - name: test package
-        run: npm run test
+      - run: npm install
+      - run: npm run build
+      - run: npm run lint
+      - run: npm run test
 
-      # Upload to IPFS:
-      - name: Try to upload built packages to IPFS
+      - name: Push on merged
         if: ${{ job.status == 'success' && github.event.pull_request.merged == true }}
         uses: aquiladev/ipfs-action@v0.1.6
-        id: ipfs
         with:
           path: ./build
           service: pinata
@@ -37,8 +29,6 @@ jobs:
           pinataSecret: ${{ secrets.PINATA_API_SECRET }}
           pinataPinName: react-site
 
-      # Testing Discord:
-      # old args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
       - name: Discord Success Notification
         if: ${{ always() && job.status == 'success' }}
         env:
