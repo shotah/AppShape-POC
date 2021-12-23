@@ -6,6 +6,8 @@
   "extends": [
     "standard",
     "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:react/recommended",
     "plugin:import/recommended",
@@ -14,7 +16,9 @@
     "plugin:promise/recommended",
     "plugin:testing-library/react"
   ],
+  "parser": "@typescript-eslint/parser",
   "plugins": [
+    "@typescript-eslint",
     "import",
     "jsx-a11y",
     "react",
@@ -51,9 +55,15 @@
     "space-before-function-paren": ["off", "never"],
     "testing-library/await-async-query": "error",
     "testing-library/no-await-sync-query": "error",
-    "testing-library/no-dom-import": "error"
+    "testing-library/no-dom-import": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   },
   "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+  },
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
