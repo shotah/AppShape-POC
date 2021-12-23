@@ -36,6 +36,14 @@ jobs:
           pinataSecret: ${{ secrets.PINATA_API_SECRET }}
           pinataPinName: react-site
 
+      # Testing Discord:
+      - name: Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+
       # Start the Slack Messages:
       - name: Send custom SUCCESS JSON data to Slack workflow
         if: ${{ always() && job.status == 'success' }}
