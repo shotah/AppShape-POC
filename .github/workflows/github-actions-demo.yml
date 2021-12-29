@@ -21,6 +21,8 @@ jobs:
 
       - name: Push on merged
         if: ${{ job.status == 'success' }}
+        # used for ddns-actions:
+        id: upload
         uses: aquiladev/ipfs-action@v0.1.6
         with:
           path: ./build
@@ -28,6 +30,13 @@ jobs:
           pinataKey: ${{ secrets.PINATA_API_KEY }}
           pinataSecret: ${{ secrets.PINATA_API_SECRET }}
           pinataPinName: react-site
+
+      - uses: aquiladev/ddns-action@v0.1.1
+        with:
+          mnemonic: ${{ secrets.MNEMONIC }}
+          rpc: ${{ secrets.RPC }}
+          name: appshape.crypto
+          contentHash: ${{ steps.upload.outputs.hash }}
 
       - name: Discord Success Notification
         if: ${{ always() && job.status == 'success' }}

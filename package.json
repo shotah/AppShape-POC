@@ -8,6 +8,7 @@
         "@types/react": "^17.0.38",
         "@types/react-dom": "^17.0.11",
         "gsap": "^3.9.0",
+        "if-env": "^1.0.4",
         "nth-check": "^2.0.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -17,7 +18,9 @@
         "web-vitals": "^2.1.2"
     },
     "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
+        "start": "if-env NODE_ENV=production ?? npm run start:prod || npm run start:dev",
+        "start:dev": "react-scripts --openssl-legacy-provider start",
+        "start:prod": "react-scripts --openssl-legacy-provider start",
         "build": "react-scripts --openssl-legacy-provider build",
         "test": "jest",
         "test:coverage": "jest --coverage",
