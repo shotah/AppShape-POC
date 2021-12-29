@@ -32,6 +32,7 @@ jobs:
           pinataPinName: react-site
 
       - uses: aquiladev/ddns-action@v0.1.1
+        if: ${{ job.status == 'success' }}
         with:
           mnemonic: ${{ secrets.MNEMONIC }}
           rpc: ${{ secrets.RPC }}
