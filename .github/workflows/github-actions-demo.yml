@@ -38,6 +38,7 @@ jobs:
           rpc: ${{ secrets.RPC }}
           name: appshape.crypto
           contentHash: ${{ steps.upload.outputs.hash }}
+          verbose: true
 
       - name: Discord Success Notification
         if: ${{ always() && job.status == 'success' }}
