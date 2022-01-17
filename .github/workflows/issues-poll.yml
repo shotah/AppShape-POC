@@ -14,5 +14,5 @@ jobs:
         # if: contains(github.event.label, 'enhancement')
         uses: Ilshidur/action-discord@master
         with:
-          args: "${{ github.event.label }}"
+          args: "Test ${{ github.event.issues.*.labels.*.name }}"
 
