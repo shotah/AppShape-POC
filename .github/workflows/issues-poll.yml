@@ -3,7 +3,7 @@ on:
     types: [labeled]
 
 env:
-  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_EASYPOLL }}
+  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
 jobs:
   poll:
@@ -14,5 +14,5 @@ jobs:
         # if: contains(github.event.label, 'enhancement')
         uses: Ilshidur/action-discord@master
         with:
-          args: "/poll question: ${{ github.event }} answer1: Interested answer2: Uninterested answer3: Not needed"
+          args: "${{ github.event.label }}"
 
