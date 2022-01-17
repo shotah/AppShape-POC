@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: on-success
+      - name: poll
         if: contains(github.event.issues.labels.*.name, 'enhancement')
         uses: Ilshidur/action-discord@master
         with:
-          args: "Github repo: ${{ github.event.issues.labels.*.description }}\n- Branch: ${{ github.ref }}\n- [Link: to Actions](<${{ env.GITHUB_WORKFLOW_URL }}>)\n- Status: 🎉  ${{ github.event.workflow_run.conclusion }}  🍏"
+          args: "/poll question: ${{ github.event.issues.labels.*.description }} answer1: Interested answer2: Uninterested answer3: Not needed"
+
