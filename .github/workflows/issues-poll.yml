@@ -11,8 +11,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: poll
-        if: contains(github.event.label, 'enhancement')
+        # if: contains(github.event.label, 'enhancement')
         uses: Ilshidur/action-discord@master
         with:
-          args: "/poll question: ${{ github.event.issues.labels.*.description }} answer1: Interested answer2: Uninterested answer3: Not needed"
+          args: "/poll question: ${{ github.event }} answer1: Interested answer2: Uninterested answer3: Not needed"
 
