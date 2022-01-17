@@ -3,7 +3,7 @@ on:
     types: [labeled]
 
 env:
-  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_EASYPOLL }}
 
 jobs:
   poll:
