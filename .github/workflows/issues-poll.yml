@@ -14,5 +14,5 @@ jobs:
         if: github.event.label.name == 'enhancement'
         uses: Ilshidur/action-discord@master
         with:
-          args: "Test ${{ github.event.issue.title }}"
+          args: "New Enhancement: (${{ github.event.issue.title }})[${{ github.event.issue.url }}]"
 
