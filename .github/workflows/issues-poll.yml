@@ -11,8 +11,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: poll
-        if: github.event.label.name == 'enhancement'
+        # if: github.event.label.name == 'enhancement'
         uses: Ilshidur/action-discord@master
         with:
-          args: "New Enhancement: (${{ github.event.issue.title }})[${{ github.event.issue.url }}]"
+          args: "New ${{ github.event.label.name }} label for: (${{ github.event.issue.title }})[${{ github.event.issue.html_url }}]"
 
