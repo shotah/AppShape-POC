@@ -1,0 +1,17 @@
+on:
+  issues:
+    types: [labeled]
+
+env:
+  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: on-success
+        if: contains(github.event.issues.labels.*.name, 'enhancement')
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "Github repo: ${{ github.event.issues.labels.*.description }}\n- Branch: ${{ github.ref }}\n- [Link: to Actions](<${{ env.GITHUB_WORKFLOW_URL }}>)\n- Status: 🎉  ${{ github.event.workflow_run.conclusion }}  🍏"

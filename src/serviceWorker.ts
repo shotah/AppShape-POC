@@ -22,8 +22,12 @@ const isLocalhost = Boolean(
     )
 );
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function registerValidSW(swUrl: any, config: any): void {
+type Config = {
+  onSuccess?: (registration: ServiceWorkerRegistration) => void;
+  onUpdate?: (registration: ServiceWorkerRegistration) => void;
+};
+
+function registerValidSW(swUrl: string, config?: Config): void {
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
@@ -68,8 +72,7 @@ function registerValidSW(swUrl: any, config: any): void {
     });
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function checkValidServiceWorker(swUrl: any, config: any): void {
+function checkValidServiceWorker(swUrl: string, config?: Config): void {
   // Check if the service worker can be found. If it can't reload the page.
   fetch(swUrl)
     .then(response => {
@@ -101,8 +104,7 @@ function checkValidServiceWorker(swUrl: any, config: any): void {
     });
 }
 
-// eslint-disable-next-line
-export function register(config: any): void {
+export function register(config?: Config): void {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
@@ -115,7 +117,6 @@ export function register(config: any): void {
 
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
-
       if (isLocalhost) {
         // This is running on localhost. Let's check if a service worker still exists or not.
         checkValidServiceWorker(swUrl, config);
@@ -137,12 +138,15 @@ export function register(config: any): void {
   }
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function unregister(): any {
+export function unregister(): void {
   if ('serviceWorker' in navigator) {
-    return navigator.serviceWorker.ready.then(registration => {
-      registration.unregister();
-      return null;
-    });
+    navigator.serviceWorker.ready
+      .then(registration => {
+        registration.unregister();
+        return null;
+      })
+      .catch((error) => {
+        console.error(error.message);
+      });
   }
 }
