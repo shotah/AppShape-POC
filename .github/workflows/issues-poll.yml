@@ -14,5 +14,5 @@ jobs:
         # if: contains(github.event.label, 'enhancement')
         uses: Ilshidur/action-discord@master
         with:
-          args: "/poll question: ${{ github.event }} answer1: Interested answer2: Uninterested answer3: Not needed"
+          args: "/poll create question: ${{ github.event }} 1: Interested 2: Uninterested 3: Not needed"
 
