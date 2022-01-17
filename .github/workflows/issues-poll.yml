@@ -12,5 +12,8 @@ jobs:
         # if: github.event.label.name == 'enhancement'
         uses: Ilshidur/action-discord@master
         with:
-          args: "**New ${{ github.event.label.name }}**:\n\t- [${{ github.event.issue.title }}](<${{ github.event.issue.html_url }}>)"
+          args: "[${{ github.event.issue.title }}](<${{ github.event.issue.html_url }}>) added `${{ github.event.label.name }}` label"
+
+
+          # args: "**Label `${{ github.event.label.name }}` has been added:**\n\t- "
 
