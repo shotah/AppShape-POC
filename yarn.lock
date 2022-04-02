@@ -2877,7 +2877,7 @@
   "resolved" "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz"
   "version" "1.1.1"
 
-"array-includes@^3.1.3", "array-includes@^3.1.4":
+"array-includes@^3.1.4":
   "integrity" "sha512-ZTNSQkmWumEbiHO2GF4GmWxYVTiQyJy2XOTa15sdQSrvKn7l+180egQMqlrMOUMCyLMD7pmyQe4mMDUT6Behrw=="
   "resolved" "https://registry.npmjs.org/array-includes/-/array-includes-3.1.4.tgz"
   "version" "3.1.4"
@@ -3575,9 +3575,9 @@
     "static-extend" "^0.1.1"
 
 "clean-css@^5.2.2":
-  "integrity" "sha512-nKseG8wCzEuji/4yrgM/5cthL9oTDc5UOQyFMvW/Q53oP6gLH690o1NbuTh6Y18nujr7BxlsFuS7gXLnLzKJGg=="
-  "resolved" "https://registry.npmjs.org/clean-css/-/clean-css-5.2.4.tgz"
-  "version" "5.2.4"
+  "integrity" "sha512-YYuuxv4H/iNb1Z/5IbMRoxgrzjWGhOEFfd+groZ5dMCVkpENiMZmwspdrzBo9286JjM1gZJPAyL7ZIdzuvu2AQ=="
+  "resolved" "https://registry.npmjs.org/clean-css/-/clean-css-5.3.0.tgz"
+  "version" "5.3.0"
   dependencies:
     "source-map" "~0.6.0"
 
@@ -3984,9 +3984,9 @@
   "version" "3.4.2"
 
 "css-what@^6.0.1":
-  "integrity" "sha512-z93ZGFLNc6yaoXAmVhqoSIb+BduplteCt1fepvwhBUQK6MNE4g6fgjpuZKJKp0esUe+vXWlIkwZZjNWoOKw0ZA=="
-  "resolved" "https://registry.npmjs.org/css-what/-/css-what-6.0.1.tgz"
-  "version" "6.0.1"
+  "integrity" "sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw=="
+  "resolved" "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
+  "version" "6.1.0"
 
 "css.escape@^1.5.1":
   "integrity" "sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s="
@@ -4887,9 +4887,9 @@
     "@typescript-eslint/experimental-utils" "^4.30.0"
 
 "eslint-plugin-testing-library@^5.0.1":
-  "integrity" "sha512-YSNzasJUbyhOTe14ZPygeOBvcPvcaNkwHwrj4vdf+uirr2D32JTDaKi6CP5Os2aWtOcvt4uBSPXp9h5xGoqvWQ=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.1.0.tgz"
-  "version" "5.1.0"
+  "integrity" "sha512-fYFH8lA1hbc1Epr9laNm/+YIR2d+R7WI8sFz9jIRAUfqCf21Nb5BzZwhNeZlu9wKXwDtuf+hUM5QJxG1PuDsTQ=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.2.0.tgz"
+  "version" "5.2.0"
   dependencies:
     "@typescript-eslint/utils" "^5.13.0"
 
@@ -5744,9 +5744,9 @@
   "version" "1.3.0"
 
 "gsap@^3.9.0":
-  "integrity" "sha512-8SItjfNRh2ntZ44F7yNkH+/+wKwOpAIk+Za7fcw8ZPskrIPqu8lDjdMfqhlCYlSlFKoybr3gMpBi9xV38rdoQg=="
-  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.10.1.tgz"
-  "version" "3.10.1"
+  "integrity" "sha512-exJVOda3O1NpgGjM4dzZONmSODWFP+JF/DwfiBfCPQPr15nm3M0TQczYKLZlMdBNdWxHMvRPKVqc1e1/6YD+zA=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.10.2.tgz"
+  "version" "3.10.2"
 
 "gzip-size@^6.0.0":
   "integrity" "sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q=="
@@ -7465,11 +7465,11 @@
   "version" "5.0.0"
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", "jsx-ast-utils@^3.2.1":
-  "integrity" "sha512-uP5vu8xfy2F9A6LGC22KO7e2/vGTS1MhP+18f++ZNlf0Ohaxbc9nIEwHAsejlJKyzfZzU5UIhe5ItYkitcZnZA=="
-  "resolved" "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.1.tgz"
-  "version" "3.2.1"
+  "integrity" "sha512-HDAyJ4MNQBboGpUnHAVUNJs6X0lh058s6FuixsFGP7MgJYpD6Vasd6nzSG5iIfXu1zAYlHJ/zsOKNlrenTUBnw=="
+  "resolved" "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.2.tgz"
+  "version" "3.2.2"
   dependencies:
-    "array-includes" "^3.1.3"
+    "array-includes" "^3.1.4"
     "object.assign" "^4.1.2"
 
 "kind-of@^3.0.2", "kind-of@^3.0.3":
@@ -10282,9 +10282,9 @@
     "duplexer" "~0.1.1"
 
 "strict-event-emitter@^0.2.0":
-  "integrity" "sha512-zv7K2egoKwkQkZGEaH8m+i2D0XiKzx5jNsiSul6ja2IYFvil10A59Z9Y7PPAAe5OW53dQUf9CfsHKzjZzKkm1w=="
-  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.0.tgz"
-  "version" "0.2.0"
+  "integrity" "sha512-xIqTLS5azUH1djSUsLH9DbP6UnM/nI18vu8d43JigCQEoVsnY+mrlE+qv6kYqs6/1OkMnMIiL6ffedQSZStuoQ=="
+  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.4.tgz"
+  "version" "0.2.4"
   dependencies:
     "events" "^3.3.0"
 
