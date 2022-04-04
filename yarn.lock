@@ -4692,9 +4692,9 @@
     "resolve" "^1.13.1"
 
 "eslint-import-resolver-typescript@^2.5.0":
-  "integrity" "sha512-MNHS3u5pebvROX4MjGP9coda589ZGfL1SqdxUV4kSrcclfDRWvNE2D+eljbnWVMvWDVRgT89nhscMHPKYGcObQ=="
-  "resolved" "https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.7.0.tgz"
-  "version" "2.7.0"
+  "integrity" "sha512-00UbgGwV8bSgUv34igBDbTOtKhqoRMy9bFjNehT40bXg6585PNIct8HhXZ0SybqB9rWtXj9crcku8ndDn/gIqQ=="
+  "resolved" "https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.7.1.tgz"
+  "version" "2.7.1"
   dependencies:
     "debug" "^4.3.4"
     "glob" "^7.2.0"
