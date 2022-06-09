@@ -2233,9 +2233,9 @@
   "version" "1.3.2"
 
 "@types/node@*", "@types/node@^17.0.4":
-  "integrity" "sha512-UXdBxNGqTMtm7hCwh9HtncFVLrXoqA3oJW30j6XWp5BH/wu3mVeaxo7cq5benFdBw34HB3XDT2TRPI7rXZ+mDg=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.40.tgz"
-  "version" "17.0.40"
+  "integrity" "sha512-xA6drNNeqb5YyV5fO3OAEsnXLfO7uF0whiOfPTz5AeDo8KeZFmODKnvwPymMNO8qE/an8pVY/O50tig2SQCrGw=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.41.tgz"
+  "version" "17.0.41"
 
 "@types/normalize-package-data@^2.4.0":
   "integrity" "sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw=="
@@ -3333,14 +3333,14 @@
     "unpipe" "1.0.0"
 
 "bonjour-service@^1.0.11":
-  "integrity" "sha512-pMmguXYCu63Ug37DluMKEHdxc+aaIf/ay4YbF8Gxtba+9d3u+rmEWy61VK3Z3hp8Rskok3BunHYnG0dUHAsblw=="
-  "resolved" "https://registry.npmjs.org/bonjour-service/-/bonjour-service-1.0.12.tgz"
-  "version" "1.0.12"
+  "integrity" "sha512-LWKRU/7EqDUC9CTAQtuZl5HzBALoCYwtLhffW3et7vZMwv3bWLpJf8bRYlMD5OCcDpTfnPgNCV4yo9ZIaJGMiA=="
+  "resolved" "https://registry.npmjs.org/bonjour-service/-/bonjour-service-1.0.13.tgz"
+  "version" "1.0.13"
   dependencies:
     "array-flatten" "^2.1.2"
     "dns-equal" "^1.0.0"
     "fast-deep-equal" "^3.1.3"
-    "multicast-dns" "^7.2.4"
+    "multicast-dns" "^7.2.5"
 
 "boolbase@^1.0.0", "boolbase@~1.0.0":
   "integrity" "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww=="
@@ -3503,9 +3503,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30001332", "caniuse-lite@^1.0.30001335", "caniuse-lite@^1.0.30001349":
-  "integrity" "sha512-VFaWW3jeo6DLU5rwdiasosxhYSduJgSGil4cSyX3/85fbctlE58pXAkWyuRmVA0r2RxsOSVYUTZcySJ8WpbTxw=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001349.tgz"
-  "version" "1.0.30001349"
+  "integrity" "sha512-NZBql38Pzd+rAu5SPXv+qmTWGQuFsRiemHCJCAPvkoDxWV19/xqL2YHF32fDJ9SDLdLqfax8+S0CO3ncDCp9Iw=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001350.tgz"
+  "version" "1.0.30001350"
 
 "capture-exit@^2.0.0":
   "integrity" "sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g=="
@@ -4530,9 +4530,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.147":
-  "integrity" "sha512-czclPqxLMPqPMkahKcske4TaS5lcznsc26ByBlEFDU8grTBVK9C5W6K9I6oEEhm4Ai4jTihGnys90xY1yjXcRg=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.147.tgz"
-  "version" "1.4.147"
+  "integrity" "sha512-8MJk1bcQUAYkuvCyWZxaldiwoDG0E0AMzBGA6cv3WfuvJySiPgfidEPBFCRRH3cZm6SVZwo/oRlK1ehi1QNEIQ=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.148.tgz"
+  "version" "1.4.148"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
@@ -7969,7 +7969,7 @@
     "type-fest" "^1.2.2"
     "yargs" "^17.0.1"
 
-"multicast-dns@^7.2.4":
+"multicast-dns@^7.2.5":
   "integrity" "sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg=="
   "resolved" "https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz"
   "version" "7.2.5"
@@ -9676,7 +9676,7 @@
     "source-map" "0.6.1"
 
 "resolve-url@^0.2.1":
-  "integrity" "sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo="
+  "integrity" "sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg=="
   "resolved" "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
   "version" "0.2.1"
 
@@ -9743,9 +9743,9 @@
     "terser" "^5.0.0"
 
 "rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.0.0", "rollup@^2.43.1":
-  "integrity" "sha512-JzNlJZDison3o2mOxVmb44Oz7t74EfSd1SQrplQk0wSaXV7uLQXtVdHbxlcT3w+8tZ1TL4r/eLfc7nAbz38BBA=="
-  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.75.5.tgz"
-  "version" "2.75.5"
+  "integrity" "sha512-OEf0TgpC9vU6WGROJIk1JA3LR5vk/yvqlzxqdrE2CzzXnqKXNzbAwlWUXis8RS3ZPe7LAq+YUxsRa0l3r27MLA=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.75.6.tgz"
+  "version" "2.75.6"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
@@ -9796,7 +9796,7 @@
   "version" "5.2.1"
 
 "safe-regex@^1.1.0":
-  "integrity" "sha1-QKNmnzsHfR6UPURinhV91IAjvy4="
+  "integrity" "sha512-aJXcif4xnaNUzvUuC5gcb46oTS7zvg4jpMTnuqtrEPlR3vFr4pxtdTwaF1Qs3Enjn9HK+ZlwQui+a7z0SywIzg=="
   "resolved" "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
   "version" "1.1.0"
   dependencies:
@@ -9893,7 +9893,7 @@
     "ajv-keywords" "^3.4.1"
 
 "select-hose@^2.0.0":
-  "integrity" "sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo="
+  "integrity" "sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg=="
   "resolved" "https://registry.npmjs.org/select-hose/-/select-hose-2.0.0.tgz"
   "version" "2.0.0"
 
