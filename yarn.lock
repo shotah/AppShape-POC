@@ -1731,10 +1731,10 @@
     "outvariant" "^1.2.0"
     "strict-event-emitter" "^0.2.0"
 
-"@next/eslint-plugin-next@12.2.0":
-  "integrity" "sha512-nIj5xV/z3dOfeBnE7qFAjUQZAi4pTlIMuusRM6s/T6lOz8x7mjY5s1ZkTUBmcjPVCb2VIv3CrMH0WZL6xfjZZg=="
-  "resolved" "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-12.2.0.tgz"
-  "version" "12.2.0"
+"@next/eslint-plugin-next@12.2.1":
+  "integrity" "sha512-TeixNZNtKIZl8+HSq2hioWGL7/+YVcmKCExW7p075iVNZb/wbEAgTsrfiZJfTtHwXVuyuX7dUxiaMin1yvHzjA=="
+  "resolved" "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-12.2.1.tgz"
+  "version" "12.2.1"
   dependencies:
     "glob" "7.1.7"
 
@@ -4524,9 +4524,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.172":
-  "integrity" "sha512-OpEjTADzGoXABjqobGhpy0D2YsTncAax7IkER68ycc4adaq0dqEG9//9aenKPy7BGA90bqQdLac0dPp6uMkcSg=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.182.tgz"
-  "version" "1.4.182"
+  "integrity" "sha512-IADi390FRdvxWfVX3hjzfTDNVHiTqVo9ar53/7em/SfhUG9YcjVhyQecY/XwmBHRKden/wFud7RWOUH7+7LFng=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.184.tgz"
+  "version" "1.4.184"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
@@ -4697,11 +4697,11 @@
     "source-map" "~0.6.1"
 
 "eslint-config-next@latest":
-  "integrity" "sha512-QWzNegadFXjQ0h3hixnLacRM9Kot85vQefyNsA8IeOnERZMz0Gvays1W6DMCjSxJbnCwuWaMXj9DCpar5IahRA=="
-  "resolved" "https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-12.2.0.tgz"
-  "version" "12.2.0"
+  "integrity" "sha512-/lHPdvP1MC1ceKgH/hffjQ9IqtcAMCOPOyR4SsZ5R2/KFlra2EBW/e1tXdR+HhkkbNSkRO4N/ZgAFDmC5AYS2Q=="
+  "resolved" "https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-12.2.1.tgz"
+  "version" "12.2.1"
   dependencies:
-    "@next/eslint-plugin-next" "12.2.0"
+    "@next/eslint-plugin-next" "12.2.1"
     "@rushstack/eslint-patch" "^1.1.3"
     "@typescript-eslint/parser" "^5.21.0"
     "eslint-import-resolver-node" "^0.3.6"
@@ -8744,13 +8744,13 @@
     "@csstools/postcss-progressive-custom-properties" "^1.1.0"
     "postcss-value-parser" "^4.2.0"
 
-"postcss-load-config@^3.1.4":
-  "integrity" "sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg=="
-  "resolved" "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-3.1.4.tgz"
-  "version" "3.1.4"
+"postcss-load-config@^4.0.1":
+  "integrity" "sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA=="
+  "resolved" "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-4.0.1.tgz"
+  "version" "4.0.1"
   dependencies:
     "lilconfig" "^2.0.5"
-    "yaml" "^1.10.2"
+    "yaml" "^2.1.1"
 
 "postcss-loader@^6.2.1":
   "integrity" "sha512-WbbYpmAaKcux/P66bZ40bpWsBucjx/TTgVVzRZ9yUO8yQfVBlameJ0ZGVaPfH64hNSBh63a+ICP5nqOpBA0w+Q=="
@@ -9669,7 +9669,7 @@
   "resolved" "https://registry.npmjs.org/resolve.exports/-/resolve.exports-1.1.0.tgz"
   "version" "1.1.0"
 
-"resolve@^1.1.7", "resolve@^1.10.0", "resolve@^1.10.1", "resolve@^1.14.2", "resolve@^1.18.1", "resolve@^1.19.0", "resolve@^1.20.0", "resolve@^1.22.0":
+"resolve@^1.1.7", "resolve@^1.10.0", "resolve@^1.10.1", "resolve@^1.14.2", "resolve@^1.18.1", "resolve@^1.19.0", "resolve@^1.20.0", "resolve@^1.22.0", "resolve@^1.22.1":
   "integrity" "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw=="
   "resolved" "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
   "version" "1.22.1"
@@ -10566,9 +10566,9 @@
     "strip-ansi" "^6.0.1"
 
 "tailwindcss@^3.0.2":
-  "integrity" "sha512-NrxbFV4tYsga/hpWbRyUfIaBrNMXDxx5BsHgBS4v5tlyjf+sDsgBg5m9OxjrXIqAS/uR9kicxLKP+bEHI7BSeQ=="
-  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.4.tgz"
-  "version" "3.1.4"
+  "integrity" "sha512-bC/2dy3dGPqxMWAqFSRgQxVCfmO/31ZbeEp8s9DMDh4zgPZ5WW1gxRJkbBkXcTUIzaSUdhWrcsrSOe32ccgB4w=="
+  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.5.tgz"
+  "version" "3.1.5"
   dependencies:
     "arg" "^5.0.2"
     "chokidar" "^3.5.3"
@@ -10586,12 +10586,12 @@
     "postcss" "^8.4.14"
     "postcss-import" "^14.1.0"
     "postcss-js" "^4.0.0"
-    "postcss-load-config" "^3.1.4"
+    "postcss-load-config" "^4.0.1"
     "postcss-nested" "5.0.6"
     "postcss-selector-parser" "^6.0.10"
     "postcss-value-parser" "^4.2.0"
     "quick-lru" "^5.1.1"
-    "resolve" "^1.22.0"
+    "resolve" "^1.22.1"
 
 "tapable@^1.0.0":
   "integrity" "sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA=="
@@ -11592,6 +11592,11 @@
   "integrity" "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
   "resolved" "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
   "version" "1.10.2"
+
+"yaml@^2.1.1":
+  "integrity" "sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw=="
+  "resolved" "https://registry.npmjs.org/yaml/-/yaml-2.1.1.tgz"
+  "version" "2.1.1"
 
 "yargs-parser@^18.1.2":
   "integrity" "sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ=="
