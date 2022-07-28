@@ -2138,9 +2138,9 @@
   "version" "0.0.39"
 
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.18":
-  "integrity" "sha512-uMd++6dMKS32EOuw1Uli3e3BPgdLIXmezcfHv7N4c1s3gkhikBplORPpMq3fuWkxncZN1reb16d5n8yhQ80x7Q=="
-  "resolved" "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.29.tgz"
-  "version" "4.17.29"
+  "integrity" "sha512-gstzbTWro2/nFed1WXtf+TtrpwxH7Ggs4RLYTLbeVgIkUQOI3WG/JKjgeOU1zXDvezllupjrf8OPIdvTbIaVOQ=="
+  "resolved" "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.30.tgz"
+  "version" "4.17.30"
   dependencies:
     "@types/node" "*"
     "@types/qs" "*"
@@ -2246,9 +2246,9 @@
   "version" "4.0.0"
 
 "@types/prettier@^2.0.0", "@types/prettier@^2.1.5":
-  "integrity" "sha512-ymZk3LEC/fsut+/Q5qejp6R9O1rMxz3XaRHDV6kX8MrGAhOSPqVARbDi+EZvInBpw+BnCX3TD240byVkOfQsHg=="
-  "resolved" "https://registry.npmjs.org/@types/prettier/-/prettier-2.6.3.tgz"
-  "version" "2.6.3"
+  "integrity" "sha512-fOwvpvQYStpb/zHMx0Cauwywu9yLDmzWiiQBC7gJyq5tYLUXFZvDG7VK1B7WBxxjBJNKFOZ0zLoOQn8vmATbhw=="
+  "resolved" "https://registry.npmjs.org/@types/prettier/-/prettier-2.6.4.tgz"
+  "version" "2.6.4"
 
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
@@ -4522,9 +4522,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.188":
-  "integrity" "sha512-nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.200.tgz"
-  "version" "1.4.200"
+  "integrity" "sha512-JYsK2ex9lmQD27kj19fhXYxzFJ/phLAkLKHv49A5UY6kMRV2xED3qMMLg/voW/+0AR6wMiI+VxlmK9NDtdxlPA=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.202.tgz"
+  "version" "1.4.202"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
@@ -9728,9 +9728,9 @@
     "terser" "^5.0.0"
 
 "rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.0.0", "rollup@^2.43.1":
-  "integrity" "sha512-GhutNJrvTYD6s1moo+kyq7lD9DeR5HDyXo4bDFlDSkepC9kVKY+KK/NSZFzCmeXeia3kEzVuToQmHRdugyZHxw=="
-  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.77.1.tgz"
-  "version" "2.77.1"
+  "integrity" "sha512-m/4YzYgLcpMQbxX3NmAqDvwLATZzxt8bIegO78FZLl+lAgKJBd1DRAOeEiZcKOIOPjxE6ewHWHNgGEalFXuz1g=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.77.2.tgz"
+  "version" "2.77.2"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
