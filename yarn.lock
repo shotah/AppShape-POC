@@ -1820,9 +1820,9 @@
   "version" "1.1.4"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-II2SIjvxBVJmrGkkZYza/BqNjwx3PWROIA8CZ0/Hn7LV0Mv0CVpZxoyHGBVsQqfFLMv9DmArIeRHTwo76bE6oA=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.21.tgz"
-  "version" "0.24.21"
+  "integrity" "sha512-JsBe3cOFpNZ6yjBYnXKhcENWy5qZE3PQZwExQ5ksA/h8qp4bwwxFmy07A6bC2R6qv6+RF3SfrbQTskTwYNTXUQ=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.22.tgz"
+  "version" "0.24.22"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
@@ -4522,9 +4522,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.202":
-  "integrity" "sha512-5Ojjtw9/c9HCXtMVE6SXVSHSNjmbFOXpKprl6mY/5moLSxLeWatuYA7KTD+RzJMxLRH6yNNQrqGz9p6IoNBMgw=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.204.tgz"
-  "version" "1.4.204"
+  "integrity" "sha512-h+Fadt1gIaQ06JaIiyqPsBjJ08fV5Q7md+V8bUvQW/9OvXfL2LRICTz2EcnnCP7QzrFTS6/27MRV6Bl9Yn97zA=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.206.tgz"
+  "version" "1.4.206"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
