@@ -2950,9 +2950,9 @@
     "@babel/runtime-corejs3" "^7.10.2"
 
 "aria-query@^5.0.0":
-  "integrity" "sha512-V+SM7AbUwJ+EBnB8+DXs0hPZHO0W6pqBcc0dW90OwtVG02PswOu/teuARoLQjdDOH+t9pJgGnW5/Qmouf3gPJg=="
-  "resolved" "https://registry.npmjs.org/aria-query/-/aria-query-5.0.0.tgz"
-  "version" "5.0.0"
+  "integrity" "sha512-eigU3vhqSO+Z8BKDnVLN/ompjhf3pYzecKXz8+whRy+9gZu8n1TCGfwzQUUPnqdHl9ax1Hr9031orZ+UOEYr7Q=="
+  "resolved" "https://registry.npmjs.org/aria-query/-/aria-query-5.0.2.tgz"
+  "version" "5.0.2"
 
 "arr-diff@^4.0.0":
   "integrity" "sha512-YVIQ82gZPGBebQV/a8dar4AitzCQs0jjXwMPZllpXMaGjXPYVUawSxQrRsjhjupyVxEvbHgUmIhKVlND+j02kA=="
@@ -10735,9 +10735,9 @@
   "version" "1.0.1"
 
 "tough-cookie@^4.0.0":
-  "integrity" "sha512-Ns3k8QxkEzIfLZbRwLOrMPDqRa1BEAl4BzNNAOYY4BhBmEkf+HvP467F4NrD9loK3NcYflWOpUH3LJg0ehq/rQ=="
-  "resolved" "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.1.tgz"
-  "version" "4.1.1"
+  "integrity" "sha512-G9fqXWoYFZgTc2z8Q5zaHy/vJMjm+WV0AkAeHxVCQiEB1b+dGvWzFW6QV07cY5jQ5gRkeid2qIkzkxUnmoQZUQ=="
+  "resolved" "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.2.tgz"
+  "version" "4.1.2"
   dependencies:
     "psl" "^1.1.33"
     "punycode" "^2.1.1"
