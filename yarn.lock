@@ -1109,10 +1109,10 @@
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-12.0.0.tgz"
   "version" "12.0.0"
 
-"@csstools/postcss-cascade-layers@^1.0.5":
-  "integrity" "sha512-Id/9wBT7FkgFzdEpiEWrsVd4ltDxN0rI0QS0SChbeQiSuux3z21SJCRLu6h2cvCEUmaRi+VD0mHFj+GJD4GFnw=="
-  "resolved" "https://registry.npmjs.org/@csstools/postcss-cascade-layers/-/postcss-cascade-layers-1.0.5.tgz"
-  "version" "1.0.5"
+"@csstools/postcss-cascade-layers@^1.0.6":
+  "integrity" "sha512-ei4Vh4AJwTCXTNj7uzwduoZDO7nLPksQ0TI7OzUlyFq4P4Uhu6hU7R4AlLimDP/s6D3PQdHmRL4f7UOy370UHA=="
+  "resolved" "https://registry.npmjs.org/@csstools/postcss-cascade-layers/-/postcss-cascade-layers-1.0.6.tgz"
+  "version" "1.0.6"
   dependencies:
     "@csstools/selector-specificity" "^2.0.2"
     "postcss-selector-parser" "^6.0.10"
@@ -1856,9 +1856,9 @@
   "version" "1.1.4"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-iN6ehuDndiTiDz2F+Orv/+oHJR+PrGv+38oghCddpsW4YEZl5qyLsWxSwYUWrKEOfjpGtXDFW6scJtjpzSLeSw=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.35.tgz"
-  "version" "0.24.35"
+  "integrity" "sha512-8xuD57tNMHs7R0YUzFp0xqIVOTJDbFHnEN/JTej5d5o/dTx4OSsURKTT9dkWl6ghMk4zs3AYe1bi7UK0NnJ4oA=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.37.tgz"
+  "version" "0.24.37"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
@@ -4109,7 +4109,7 @@
   "resolved" "https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz"
   "version" "1.5.1"
 
-"cssdb@^7.0.0":
+"cssdb@^7.0.1":
   "integrity" "sha512-pT3nzyGM78poCKLAEy2zWIVX2hikq6dIrjuZzLV98MumBg+xMTNYfHx7paUlfiRTgg91O/vR889CIf+qiv79Rw=="
   "resolved" "https://registry.npmjs.org/cssdb/-/cssdb-7.0.1.tgz"
   "version" "7.0.1"
@@ -8974,11 +8974,11 @@
     "postcss-value-parser" "^4.2.0"
 
 "postcss-preset-env@^7.0.1", "postcss-preset-env@^7.2.3":
-  "integrity" "sha512-leqiqLOellpLKfbHkD06E04P6d9ZQ24mat6hu4NSqun7WG0UhspHR5Myiv/510qouCjoo4+YJtNOqg5xHaFnCA=="
-  "resolved" "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-7.8.0.tgz"
-  "version" "7.8.0"
+  "integrity" "sha512-8884CHxQaoN1i4iEK+JvzOe8emODb5R4p/0dw4yEdo7QM4RdUk2sBx0fnzFyJt8BLfZSCGeVkKZ4HC564waBpQ=="
+  "resolved" "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-7.8.1.tgz"
+  "version" "7.8.1"
   dependencies:
-    "@csstools/postcss-cascade-layers" "^1.0.5"
+    "@csstools/postcss-cascade-layers" "^1.0.6"
     "@csstools/postcss-color-function" "^1.1.1"
     "@csstools/postcss-font-format-keywords" "^1.0.1"
     "@csstools/postcss-hwb-function" "^1.0.2"
@@ -8997,7 +8997,7 @@
     "css-blank-pseudo" "^3.0.3"
     "css-has-pseudo" "^3.0.4"
     "css-prefers-color-scheme" "^6.0.3"
-    "cssdb" "^7.0.0"
+    "cssdb" "^7.0.1"
     "postcss-attribute-case-insensitive" "^5.0.2"
     "postcss-clamp" "^4.1.0"
     "postcss-color-functional-notation" "^4.2.4"
@@ -9897,9 +9897,9 @@
   "version" "2.0.0"
 
 "selfsigned@^2.0.1":
-  "integrity" "sha512-LmME957M1zOsUhG+67rAjKfiWFox3SBxE/yymatMZsAx+oMrJ0YQ8AToOnyCm7xbeg2ep37IHLxdu0o2MavQOQ=="
-  "resolved" "https://registry.npmjs.org/selfsigned/-/selfsigned-2.0.1.tgz"
-  "version" "2.0.1"
+  "integrity" "sha512-GSL3aowiF7wa/WtSFwnUrludWFoNhftq8bUkH9pkzjpN2XSPOAYEgg6e0sS9s0rZwgJzJiQRPU18A6clnoW5wQ=="
+  "resolved" "https://registry.npmjs.org/selfsigned/-/selfsigned-2.1.1.tgz"
+  "version" "2.1.1"
   dependencies:
     "node-forge" "^1"
 
