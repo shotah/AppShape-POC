@@ -1856,9 +1856,9 @@
   "version" "1.1.4"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-GqtkxoAjhTzoMwFg/JYRl+1+miOoyvp6mkLpbMSd2fIQak2KvY00ndlXxxkDBpuCPYkorZeEZf0LEQn9V9NRVQ=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.39.tgz"
-  "version" "0.24.39"
+  "integrity" "sha512-Xint60L8rF0+nRy+6fCjW9jQMmu7fTpbwTBrXZiK6eq/RHDJS7LvWX/0oXC8O7fCePmrY/XdfaTv2HiUDeCq4g=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.40.tgz"
+  "version" "0.24.40"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
