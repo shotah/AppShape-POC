@@ -1863,9 +1863,9 @@
   "version" "1.2.0"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-TJCgQurls4FipFvHeC+gfAzb+GGstL0TDwYJKQVtTeSvJIznWzP7g3bAd5gEBlr8+bIxqnWS9VGVWREDhmE8jA=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.41.tgz"
-  "version" "0.24.41"
+  "integrity" "sha512-d+2AtrHGyWek2u2ITF0lHRIv6Tt7X0dEHW+0rP+5aDCEjC3fiN2RBjrLD0yU0at52BcZbRGxLbAtXiR0hFCjYw=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.42.tgz"
+  "version" "0.24.42"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
@@ -2002,9 +2002,9 @@
     "loader-utils" "^2.0.0"
 
 "@testing-library/dom@^8.0.0", "@testing-library/dom@^8.5.0", "@testing-library/dom@>=7.21.4":
-  "integrity" "sha512-KnH2MnJUzmFNPW6RIKfd+zf2Wue8mEKX0M3cpX6aKl5ZXrJM1/c/Pc8c2xDNYQCnJO48Sm5ITbMXgqTr3h4jxQ=="
-  "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.17.1.tgz"
-  "version" "8.17.1"
+  "integrity" "sha512-hP7v7Ifiq104Lb4dTuQzUtlkbX4sgsmxVwOTnVSDOU4ntApvPfp+eFLvasS8GpMP6pVfdbNRXNF/bSK7LTriEg=="
+  "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.18.0.tgz"
+  "version" "8.18.0"
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
@@ -4272,9 +4272,9 @@
   "version" "1.2.0"
 
 "decimal.js@^10.2.1":
-  "integrity" "sha512-Nv6ENEzyPQ6AItkGwLE2PGKinZZ9g59vSh2BeH6NqPu0OTKZ5ruJsVqh/orbAnqXc9pBbgXAIrc2EyaCj8NpGg=="
-  "resolved" "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.0.tgz"
-  "version" "10.4.0"
+  "integrity" "sha512-F29o+vci4DodHYT9UrR5IEbfBw9pE5eSapIJdTqXK5+6hq+t8VRxwQyKlW2i+KDKFkkJQRvFyI/QXD83h8LyQw=="
+  "resolved" "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.1.tgz"
+  "version" "10.4.1"
 
 "decode-uri-component@^0.2.0":
   "integrity" "sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og=="
@@ -4561,9 +4561,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.251":
-  "integrity" "sha512-1pezJ2E1UyBTGbA7fUlHdPSXQw1k+82VhTFLG5G0AUqLGvsZqFzleOblceqegZzxYX4kC7hGEEdzIQI9RZ1Cuw=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.253.tgz"
-  "version" "1.4.253"
+  "integrity" "sha512-Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.254.tgz"
+  "version" "1.4.254"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
