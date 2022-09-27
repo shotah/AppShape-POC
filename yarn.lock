@@ -3921,16 +3921,16 @@
   "version" "0.1.1"
 
 "core-js-compat@^3.25.1":
-  "integrity" "sha512-TxfyECD4smdn3/CjWxczVtJqVLEEC2up7/82t7vC0AzNogr+4nQ8vyF7abxAuTXWvjTClSbvGhU0RgqA4ToQaQ=="
-  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.2.tgz"
-  "version" "3.25.2"
+  "integrity" "sha512-xVtYpJQ5grszDHEUU9O7XbjjcZ0ccX3LgQsyqSvTnjX97ZqEgn9F5srmrwwwMtbKzDllyFPL+O+2OFMl1lU4TQ=="
+  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.3.tgz"
+  "version" "3.25.3"
   dependencies:
     "browserslist" "^4.21.4"
 
 "core-js-pure@^3.25.1", "core-js-pure@^3.8.1":
-  "integrity" "sha512-ItD7YpW1cUB4jaqFLZXe1AXkyqIxz6GqPnsDV4uF4hVcWh/WAGIqSqw5p0/WdsILM0Xht9s3Koyw05R3K6RtiA=="
-  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.25.2.tgz"
-  "version" "3.25.2"
+  "integrity" "sha512-T/7qvgv70MEvRkZ8p6BasLZmOVYKzOaWNBEHAU8FmveCJkl4nko2quqPQOmy6AJIp5MBanhz9no3A94NoRb0XA=="
+  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.25.3.tgz"
+  "version" "3.25.3"
 
 "core-js@^2.4.0", "core-js@^2.5.0":
   "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
@@ -3938,9 +3938,9 @@
   "version" "2.6.12"
 
 "core-js@^3.19.2":
-  "integrity" "sha512-YB4IAT1bjEfxTJ1XYy11hJAKskO+qmhuDBM8/guIfMz4JvdsAQAqvyb97zXX7JgSrfPLG5mRGFWJwJD39ruq2A=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.25.2.tgz"
-  "version" "3.25.2"
+  "integrity" "sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.25.3.tgz"
+  "version" "3.25.3"
 
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
@@ -4560,9 +4560,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.251":
-  "integrity" "sha512-fVXliNUGJ7XUVJSAasPseBbVgJIeyw5M1xIkgXdTSRjlmCqBbiSTsEdLOCJS31Fc8B7CaloQ/BFAg8By3ODLdg=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.261.tgz"
-  "version" "1.4.261"
+  "integrity" "sha512-Ckn5haqmGh/xS8IbcgK3dnwAVnhDyo/WQnklWn6yaMucYTq7NNxwlGE8ElzEOnonzRLzUCo2Ot3vUb2GYUF2Hw=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.262.tgz"
+  "version" "1.4.262"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
@@ -9784,9 +9784,9 @@
     "tslib" "^1.9.0"
 
 "rxjs@^7.5.5":
-  "integrity" "sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw=="
-  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-7.5.6.tgz"
-  "version" "7.5.6"
+  "integrity" "sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA=="
+  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-7.5.7.tgz"
+  "version" "7.5.7"
   dependencies:
     "tslib" "^2.1.0"
 
