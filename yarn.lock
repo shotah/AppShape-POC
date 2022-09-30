@@ -1246,9 +1246,9 @@
     "strip-json-comments" "^3.1.1"
 
 "@humanwhocodes/config-array@^0.10.5":
-  "integrity" "sha512-XVVDtp+dVvRxMoxSiSfasYaG02VEe1qH5cKgMQJWhol6HwzbcqoCMJi8dAGoYAO57jhUyhI6cWuRiTcRaDaYug=="
-  "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.5.tgz"
-  "version" "0.10.5"
+  "integrity" "sha512-U/piU+VwXZsIgwnl+N+nRK12jCpHdc3s0UAc6zc1+HUgiESJxClpvYao/x9JwaN7onNeVb7kTlxlAvuEoaJ3ig=="
+  "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.6.tgz"
+  "version" "0.10.6"
   dependencies:
     "@humanwhocodes/object-schema" "^1.2.1"
     "debug" "^4.1.1"
@@ -1863,9 +1863,9 @@
   "version" "1.2.0"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-1orQTvtazZmsPeBroJjysvsOQCYV2yjWlebkSY38pl5vr2tdLjEJ+LoxITlGNZaH2RE19WlAwQMkH/7C14wLfw=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.43.tgz"
-  "version" "0.24.43"
+  "integrity" "sha512-ka0W0KN5i6LfrSocduwliMMpqVgohtPFidKdMEOUjoOFCHcOOYkKsPRxfs5f15oPNHTm6ERAm0GV/+/LTKeiWg=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.44.tgz"
+  "version" "0.24.44"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
@@ -3548,9 +3548,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30001400", "caniuse-lite@^1.0.30001407":
-  "integrity" "sha512-+TeEIee1gS5bYOiuf+PS/kp2mrXic37Hl66VY6EAfxasIk5fELTktK2oOezYed12H8w7jt3s512PpulQidPjwA=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001412.tgz"
-  "version" "1.0.30001412"
+  "integrity" "sha512-t55jfSaWjCdocnFdKQoO+d2ct9C59UZg4dY3OnUlSZ447r8pUtIKdp0hpAzrGFultmTC+Us+KpKi4GZl/LXlFg=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001414.tgz"
+  "version" "1.0.30001414"
 
 "capture-exit@^2.0.0":
   "integrity" "sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g=="
@@ -4560,9 +4560,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.251":
-  "integrity" "sha512-38KaYBNs0oCzWCpr6j7fY/W9vF0vSp4tKFIshQTgdZMhUpkxgotkQgjJP6iGMdmlsgMs3i0/Hkko4UXLTrkYVQ=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.265.tgz"
-  "version" "1.4.265"
+  "integrity" "sha512-PO90Bv++vEzdln+eA9qLg1IRnh0rKETus6QkTzcFm5P3Wg3EQBZud5dcnzkpYXuIKWBjKe5CO8zjz02cicvn1g=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.268.tgz"
+  "version" "1.4.268"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
