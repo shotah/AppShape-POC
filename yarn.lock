@@ -3733,6 +3733,15 @@
     "strip-ansi" "^6.0.0"
     "wrap-ansi" "^7.0.0"
 
+"cliui@^8.0.1":
+  "integrity" "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ=="
+  "resolved" "https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz"
+  "version" "8.0.1"
+  dependencies:
+    "string-width" "^4.2.0"
+    "strip-ansi" "^6.0.1"
+    "wrap-ansi" "^7.0.0"
+
 "clone@^1.0.2":
   "integrity" "sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg=="
   "resolved" "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
@@ -4560,9 +4569,9 @@
     "jake" "^10.8.5"
 
 "electron-to-chromium@^1.4.251":
-  "integrity" "sha512-7mHFONwp7MNvdyto1v70fCwk28NJMFgsK79op+iYHzz1BLE8T66a1B2qW5alb8XgE0yi3FL3ZQjSYZpJpF6snw=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.269.tgz"
-  "version" "1.4.269"
+  "integrity" "sha512-KNhIzgLiJmDDC444dj9vEOpZEgsV96ult9Iff98Vanumn+ShJHd5se8aX6KeVxdc0YQeqdrezBZv89rleDbvSg=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.270.tgz"
+  "version" "1.4.270"
 
 "emittery@^0.10.2":
   "integrity" "sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw=="
@@ -7446,9 +7455,9 @@
   "version" "1.1.6"
 
 "js-sdsl@^4.1.4":
-  "integrity" "sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw=="
-  "resolved" "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.1.4.tgz"
-  "version" "4.1.4"
+  "integrity" "sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q=="
+  "resolved" "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.1.5.tgz"
+  "version" "4.1.5"
 
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
@@ -9102,9 +9111,9 @@
   "version" "4.2.0"
 
 "postcss@^7.0.0 || ^8.0.1", "postcss@^8", "postcss@^8.0.0", "postcss@^8.0.3", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.4", "postcss@^8.2", "postcss@^8.2.14", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.3", "postcss@^8.3.3", "postcss@^8.3.5", "postcss@^8.4", "postcss@^8.4.14", "postcss@^8.4.4", "postcss@^8.4.6", "postcss@^8.4.7", "postcss@>= 8", "postcss@>=8", "postcss@>=8.0.9":
-  "integrity" "sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.16.tgz"
-  "version" "8.4.16"
+  "integrity" "sha512-UNxNOLQydcOFi41yHNMcKRZ39NeXlr8AxGuZJsdub8vIb12fHzcq37DTU/QtbI6WLxNg2gF9Z+8qtRwTj1UI1Q=="
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.17.tgz"
+  "version" "8.4.17"
   dependencies:
     "nanoid" "^3.3.4"
     "picocolors" "^1.0.0"
@@ -11672,11 +11681,11 @@
     "yargs-parser" "^20.2.2"
 
 "yargs@^17.0.1":
-  "integrity" "sha512-t6YAJcxDkNX7NFYiVtKvWUz8l+PaKTLiL63mJYWR2GnHq2gjEWISzsLp9wg3aY36dY1j+gfIEL3pIF+XlJJfbA=="
-  "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.5.1.tgz"
-  "version" "17.5.1"
+  "integrity" "sha512-8H/wTDqlSwoSnScvV2N/JHfLWOKuh5MVla9hqLjK3nsfyy6Y4kDSYSvkU5YCUEPOSnRXfIyx3Sq+B/IWudTo4g=="
+  "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.6.0.tgz"
+  "version" "17.6.0"
   dependencies:
-    "cliui" "^7.0.2"
+    "cliui" "^8.0.1"
     "escalade" "^3.1.1"
     "get-caller-file" "^2.0.5"
     "require-directory" "^2.1.1"
