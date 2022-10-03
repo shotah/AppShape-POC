@@ -10346,9 +10346,9 @@
     "duplexer" "~0.1.1"
 
 "strict-event-emitter@^0.2.0":
-  "integrity" "sha512-BmJ3GQ3APBr6bKOWBrdvLmazOYeIZWfemtr7a5D8wgzMoys6Kp6HvnGq8G3LCPFv6iWao7WO85KTWf2I8A/1RA=="
-  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.5.tgz"
-  "version" "0.2.5"
+  "integrity" "sha512-qDZOqEBoNtKLPb/qAutkXUt7hs3zXgYA1xX4pVa+gZHCZZVLr2r81AzHsK5YrQQhRNphMtkOUyAyOr9e1IxJTw=="
+  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.6.tgz"
+  "version" "0.2.6"
   dependencies:
     "events" "^3.3.0"
 
