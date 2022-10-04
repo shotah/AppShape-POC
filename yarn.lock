@@ -3930,16 +3930,16 @@
   "version" "0.1.1"
 
 "core-js-compat@^3.25.1":
-  "integrity" "sha512-xVtYpJQ5grszDHEUU9O7XbjjcZ0ccX3LgQsyqSvTnjX97ZqEgn9F5srmrwwwMtbKzDllyFPL+O+2OFMl1lU4TQ=="
-  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.3.tgz"
-  "version" "3.25.3"
+  "integrity" "sha512-gCEcIEEqCR6230WroNunK/653CWKhqyCKJ9b+uESqOt/WFJA8B4lTnnQFdpYY5vmBcwJAA90Bo5vXs+CVsf6iA=="
+  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.4.tgz"
+  "version" "3.25.4"
   dependencies:
     "browserslist" "^4.21.4"
 
 "core-js-pure@^3.25.1", "core-js-pure@^3.8.1":
-  "integrity" "sha512-T/7qvgv70MEvRkZ8p6BasLZmOVYKzOaWNBEHAU8FmveCJkl4nko2quqPQOmy6AJIp5MBanhz9no3A94NoRb0XA=="
-  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.25.3.tgz"
-  "version" "3.25.3"
+  "integrity" "sha512-qRbgm0ADrsNTU66UcW47YMJjXm+ShhUP2gkoEoAShT2BHO3cb5gGqLtmWpjnM6Wx9h5hMSF4uZ+jEV/8+4KCsw=="
+  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.25.4.tgz"
+  "version" "3.25.4"
 
 "core-js@^2.4.0", "core-js@^2.5.0":
   "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
@@ -3947,9 +3947,9 @@
   "version" "2.6.12"
 
 "core-js@^3.19.2":
-  "integrity" "sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.25.3.tgz"
-  "version" "3.25.3"
+  "integrity" "sha512-JDLxg61lFPFYQ7U0HKoyKwVUV63VbbVTb/K73Yf+k4Mf4ZBZxCjfyrWZjTk1ZM7ZrgFSqhSIOmuzYAxG2f/reQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.25.4.tgz"
+  "version" "3.25.4"
 
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
@@ -4931,9 +4931,9 @@
     "@typescript-eslint/experimental-utils" "^4.30.0"
 
 "eslint-plugin-testing-library@^5.0.1":
-  "integrity" "sha512-pI8LKtFiAflBpN4h14vTtfhKqLwtIW40TNhWyw0ckqHm0W/J0VmYtThoxpTAdHrvEWnkALSG1Z8ABBkIncMIHA=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.7.0.tgz"
-  "version" "5.7.0"
+  "integrity" "sha512-0ZmHeR/DUUgEzW8rwUBRWxuqntipDtpvxK0hymdHnLlABryJkzd+CAHr+XnISaVsTisZ5MLHp6nQF+8COHLLTA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.7.2.tgz"
+  "version" "5.7.2"
   dependencies:
     "@typescript-eslint/utils" "^5.13.0"
 
