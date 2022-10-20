@@ -1860,9 +1860,9 @@
   "version" "1.2.0"
 
 "@sinclair/typebox@^0.24.1":
-  "integrity" "sha512-ng4ut1z2MCBhK/NwDVwIQp3pAUOCs/KNaW3cBxdFB2xTDrOuo1xuNmpr/9HHFhxqIvHrs1NTH3KJg6q+JSy1Kw=="
-  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.46.tgz"
-  "version" "0.24.46"
+  "integrity" "sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A=="
+  "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.47.tgz"
+  "version" "0.24.47"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ=="
@@ -3559,9 +3559,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30001400", "caniuse-lite@^1.0.30001407":
-  "integrity" "sha512-Sw4eLbgUJAEhjLs1Fa+mk45sidp1wRn5y6GtDpHGBaNJ9OCDJaVh2tIaWWUnGfuXfKf1JCBaIarak3FkVAvEeA=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001421.tgz"
-  "version" "1.0.30001421"
+  "integrity" "sha512-hSesn02u1QacQHhaxl/kNMZwqVG35Sz/8DgvmgedxSH8z9UUpcDYSPYgsj3x5dQNRcNp6BwpSfQfVzYUTm+fog=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001422.tgz"
+  "version" "1.0.30001422"
 
 "capture-exit@^2.0.0":
   "integrity" "sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g=="
@@ -6309,9 +6309,9 @@
     "ci-info" "^2.0.0"
 
 "is-core-module@^2.8.1", "is-core-module@^2.9.0":
-  "integrity" "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg=="
-  "resolved" "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
-  "version" "2.10.0"
+  "integrity" "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw=="
+  "resolved" "https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz"
+  "version" "2.11.0"
   dependencies:
     "has" "^1.0.3"
 
@@ -10388,9 +10388,9 @@
     "duplexer" "~0.1.1"
 
 "strict-event-emitter@^0.2.4", "strict-event-emitter@^0.2.6":
-  "integrity" "sha512-TavbHJ87WD2tDbKI7bTrmc6U4J4Qjh8E9fVvFkIFw2gCu34Wxstn2Yas0+4D78FJN8DOTEzxiT+udBdraRk4UQ=="
-  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.7.tgz"
-  "version" "0.2.7"
+  "integrity" "sha512-KDf/ujU8Zud3YaLtMCcTI4xkZlZVIYxTLr+XIULexP+77EEVWixeXroLUXQXiVtH4XH2W7jr/3PT1v3zBuvc3A=="
+  "resolved" "https://registry.npmjs.org/strict-event-emitter/-/strict-event-emitter-0.2.8.tgz"
+  "version" "0.2.8"
   dependencies:
     "events" "^3.3.0"
 
